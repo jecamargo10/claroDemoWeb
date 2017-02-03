@@ -52,7 +52,13 @@ public class ClaroResource {
         userAgent = headers.getRequestHeader(header).get(0);
 
 	System.out.println(header+ " : " + userAgent);
-        retorno= header;
+        retorno+= header+ " : " + userAgent + "\n";
+        
+        
+        
+        
+        
+        
 }
 
         
